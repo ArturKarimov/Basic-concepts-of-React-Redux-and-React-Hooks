@@ -1,0 +1,98 @@
+.userItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 528px;
+    padding: 10px;
+    border: 1px  solid #d0d2d4;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.userAva {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #5561ff;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.userAva img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.userAvaItem {
+    position: relative;
+}
+
+.userAvaItem:after {
+    position: absolute;
+    top: 75%;
+    right: 4px;
+    display: inline-block;
+    content: '';
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #4bb34b;
+    border-radius: 50%;
+}
+
+
+
+.userInfo {
+    margin-left: 20px;
+}
+
+.userName {
+    font-weight: bold;
+}
+
+.userName a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.userSendMessage a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 1s linear;
+}
+
+.userSendMessage:hover {
+    transform: scale(1.02);
+}
+
+.userUnfollow {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+    color: #ff5142;
+}
+
+.userUnfollow a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.userFollow {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+    color: #4bb34b;
+}
+
+.userFollow a {
+
+    text-decoration: none;
+    color: inherit;
+}
+

@@ -1,0 +1,23 @@
+
+.profileStatus {
+    width: 100%;
+    max-width: 500px;
+    color: #3c3c3c;
+    margin-bottom: 10px;
+}
+
+.profileStatusChange textarea {
+    width: 300px;
+    color: #3c3c3c;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: none;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    padding: 5px 0 0 5px;
+}
+
+.profileStatusChange textarea:focus {
+    outline: none;
+    border-color: #5561ff;
+}

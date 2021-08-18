@@ -1,0 +1,14 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pageItem.active .pageLink {
+    background-color: #5561ff;
+    color: #fff;
+}
+
+
+.pageLink {
+    color: #5561ff;
+}

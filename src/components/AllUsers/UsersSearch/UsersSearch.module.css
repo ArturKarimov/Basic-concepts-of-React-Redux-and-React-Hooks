@@ -1,0 +1,27 @@
+.usersSearch {
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.usersSearch input {
+    width: 500px;
+    margin-left: 10px;
+    border: 1px solid #d0d2d4;
+    border-radius: 5px;
+    resize: none;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    padding: 5px;
+    transition: border .1s linear;
+}
+
+.usersSearch input:focus {
+    border: 1px solid #8cb1d6;
+    outline: none;
+}
+
+.searchLogo {
+    font-size: 18px;
+    color: #d0d2d4;
+}
